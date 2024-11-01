@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 400px; 
+    margin-left: 15px;
+ 
+}
+
+.container{
+    margin-left: 20px  ;
+    margin-top: 6px;
+}
+
+
+.Products{
+    margin-top: 35px;
+    height: 430px;
+}
+.Product{
+ 
+    border-color:gray ;
+    border-width: 1px;
+    border-style: solid;
+    padding: 8px;
+    float:left ;
+    width: 22%;
+    margin-left: 15px;
+    padding-bottom: 10px;
+
+}
+
+.Product img{
+    width: 100%;
+}
+
+.Product h2{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+
+}
+
+.Product p{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.prices{
+
+    margin-bottom: 17px;
+
+
+}
+.Product .price1{
+
+    color : green ;
+    font-weight: bold ;
+    display: inline ;
+    font-size: 17px;
+}
+
+.Product .price2{
+
+    color : red ;
+    font-weight: bold ;
+    display: inline ;
+    font-size: 17px;
+    margin-left: 4px;
+    text-decoration-line: line-through;
+
+
+}
+.buttons {
+    padding-top: 5px;
+    text-align: center;
+
+}
+.buttons .btn1{
+ background-color: rgb(16, 99, 177);
+ color: white;
+ width: 70%;
+ font-size: 14px;
+ height: 28px;
+ border: rgb(16, 99, 177) solid 1px ;
+}
+
+.buttons .btn2{
+    background-color: white ;
+
+    color: rgb(75, 166, 252);
+    width: 25%;
+    font-size: 14px;
+    border: rgb(75, 166, 252) solid 2px ;
+    height: 28px;
+
+   }
+
+   .buttons .btn2 i{
+    font-size: 22px;
+
+   }
+
+   .Products2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+
+   }
+
+   .clearfix{
+    clear: both;
+   }
